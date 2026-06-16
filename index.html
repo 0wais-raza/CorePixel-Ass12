@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Core pixel</title>
+     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<style>
+     body {
+          display: flex;
+          margin: 0;
+          justify-content: center;
+          gap: 50px;
+          align-items: center;
+          height: 100vh;
+          background: url(bg.gif);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          backdrop-filter: blur(20px);
+          color: white;
+          font-size: 30px;
+          overflow: hidden;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+
+     .button {
+          color: rgb(27, 27, 185);
+          text-decoration: none;
+          text-transform: uppercase;
+          background-color: white;
+          padding: 10px;
+          padding-left: 40px;
+          padding-right: 40px;
+          border-radius: 20px;
+          transition: 0.3s ease;
+          box-shadow: 0 0 30px rgb(255, 255, 255);
+     }
+
+     .button:hover {
+          color: white;
+          background-color: rgb(27, 27, 185);
+          box-shadow: 0 0 30px rgb(27, 27, 185);
+     }
+
+     .one {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .me {
+          color: #9FD758;
+     }
+</style>
+
+<body>
+     <div class="one">
+          <img src="logo.png" alt="" width="300px">
+          <h1>Core pixal</h1>
+          <a href="game.html" class="button">Play now!</a>
+     </div>
+     <div class="one">
+          <h1>Info:</h1>
+          <p>A game by <a href="https://github.com/0wais-raza" class="me">Owais Raza</a></p>
+          <ul>
+               Player 1
+               <li>Use <span style="color: green;">WASD</span> to move player 1</li>
+               <li>Use <span style="color: green;">Space</span> to attack (for player 1)</li><br>
+               Player 2
+               <li>Use <span style="color: red;">Arrows Keys</span> to move player 2</li>
+               <li>Use <span style="color: red;">0 key</span> to attack (for player 2)</li>
+          </ul>
+     </div>
+</body>
+
+</html>
